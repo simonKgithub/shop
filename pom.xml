@@ -88,6 +88,12 @@
             <scope>test</scope>
         </dependency>
         <!--(종료) 화면없이 Spring Security 테스트 -->
+        <!--(시작) 로그인상태확인 -->
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+        </dependency>
+        <!--(종료) 로그인상태확인 -->
 
 
     </dependencies>
